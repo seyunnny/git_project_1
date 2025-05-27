@@ -3,8 +3,8 @@ from subtract import subtract
 from multiply import multiply
 from divide import divide
 def calculator():
-    a = float(input("첫 번째 숫자: "))
-    b = float(input("두 번째 숫자: "))
+    a = float(input("첫 번째 숫자를 입력하세요 : "))
+    b = float(input("두 번째 숫자를 입력하세요 : "))
     op = input("연산자 (+, -, *, /): ")
     operations = {
         '+': add,
